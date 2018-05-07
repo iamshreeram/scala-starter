@@ -8,3 +8,4 @@ This repo is created for Scala newbies which helps in quick jump start.
 4. Implementing every FRP concepts & paradigm 
 5. Talking about the Top frameworks in Scala
 6. Create a enterprise application 
+7. Develop frameworks in Scala for scalability
