@@ -1,5 +1,7 @@
 # scala-starter
-This repo is created for Scala newbies which helps in quick jump start.
+This repo is created for newbies which helps in jump starting with Scala. This follows Cross-dimensional approach of learning functional reactive Programming with Scala.
+
+This contains gist of every concepts and resources for further reference.
 
 ## Steps this course will take you :
 1. Explain the importance and necessity of Functional reactive programming (FRP)
@@ -51,7 +53,7 @@ Closures
 Immutable State
 
 ```
-Resources : 
+##### Resources : 
 1. https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9
 
 
@@ -78,7 +80,7 @@ Misused asynchrony bites
 Keep things simple
 ```
 
-Resources : 
+##### Resources : 
 1. https://dzone.com/articles/only-introduction-reactive
 2. https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
 
@@ -120,7 +122,7 @@ FRP is a paradigm which implements both functional and reactive approach of prog
 
 Scala, as a functional language, has been given the tools necessary to go reactive, making concurrency and distribution easier and giving a nice and elegant way to asynchronous programming.
 
-Resources :
+##### Resources :
 
 1. https://hackernoon.com/functional-programming-what-language-should-you-be-talking-313dd8bc379b
 2. http://crscardellino.me/2014/08/11/why-did-i-choose-scala.html
@@ -144,7 +146,7 @@ Limited Commercial Support
 Tool Immaturity
 ```
 
-Pros & Cons : 
+##### Resources : 
 1. https://www.quora.com/What-are-the-pros-and-cons-of-learning-Scala-as-the-first-functional-language
 2. https://dzone.com/articles/to-scala-or-not-to-scala-that-is-the-question
 3. http://blog.celerity.com/pros-cons-scala
