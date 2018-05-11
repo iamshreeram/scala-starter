@@ -1,7 +1,7 @@
 # scala-starter
 This repo is created for newbies which helps in jump starting with Scala. This follows Cross-dimensional approach of learning functional reactive Programming with Scala.
 
-This contains gist of every concepts and resources for further reference.
+This contains gist of every concepts and also the resources for reference.
 
 ## Steps this course will take you :
 1. Explain the importance and necessity of Functional reactive programming (FRP)
@@ -32,7 +32,7 @@ fundamental, defining principles (listed above). Other examples of programming
 paradigms include object oriented programming and procedural programming.
 
 ```
-Resources : 
+##### Resources : 
 1. https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 
 ##### Why? 
@@ -68,7 +68,7 @@ inferred dependency within the associated execution model exists, which facilita
 of the change involved with data flow.
 ```
 
-Resources : 
+##### Resources : 
 1. https://en.wikipedia.org/wiki/Reactive_programming
 
 ##### Why ? 
@@ -105,7 +105,7 @@ Functional Reactive Programming (FRP) integrates time flow and compositional eve
 This provides an elegant way to express computation in domains such as interactive animations, robotics, computer vision, user interfaces, and simulation.
 ```
 
-Resources : 
+##### Resources : 
 1. http://blog.danlew.net/2017/07/27/an-introduction-to-functional-reactive-programming/
 2. https://wiki.haskell.org/Functional_Reactive_Programming
 3. https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001
@@ -129,6 +129,7 @@ Scala, as a functional language, has been given the tools necessary to go reacti
 3. https://www.quora.com/Should-I-use-Scala-instead-of-Haskell-to-learn-functional-programming-as-Scala-is-more-widely-used-and-practical
 4. https://www.quora.com/I-want-to-learn-a-functional-language-Which-one-is-the-best-Scala-Clojure-etc-and-why
 
+##### Pros and Cons :
 
 ##### Pros
 ```
