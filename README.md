@@ -82,3 +82,17 @@ Resources :
 1. https://dzone.com/articles/only-introduction-reactive
 2. https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
 
+### How? 
+
+
+
+### Functional Reactive programming :
+
+### What?
+```
+Functional reactive programming (FRP) is a programming paradigm for reactive programming 
+(asynchronous dataflow programming) using the building blocks of functional programming (e.g. map, reduce, filter). 
+FRP has been used for programming graphical user interfaces (GUIs), robotics, and music, aiming to simplify these 
+problems by explicitly modeling time.[citation needed]
+```
+
