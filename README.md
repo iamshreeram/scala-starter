@@ -84,6 +84,8 @@ Resources :
 
 ### How? 
 
+Reactive programming is achieved through Event based architecture.
+
 
 
 ### Functional Reactive programming :
@@ -96,3 +98,16 @@ FRP has been used for programming graphical user interfaces (GUIs), robotics, an
 problems by explicitly modeling time.[citation needed]
 ```
 
+### Why?
+```
+Functional Reactive Programming (FRP) integrates time flow and compositional events into functional programming. 
+This provides an elegant way to express computation in domains such as interactive animations, robotics, computer vision, user interfaces, and simulation.
+```
+
+Resources : 
+1. http://blog.danlew.net/2017/07/27/an-introduction-to-functional-reactive-programming/
+2. https://wiki.haskell.org/Functional_Reactive_Programming
+3. https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001
+4. 
+
+### How?
