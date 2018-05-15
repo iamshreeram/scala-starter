@@ -30,7 +30,8 @@ fundamental, defining principles (listed above). Other examples of programming
 paradigms include object oriented programming and procedural programming.
 
 ```
-From : https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+Resources : 
+1. https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 
 ### Why? 
 ```
@@ -50,7 +51,8 @@ Closures
 Immutable State
 
 ```
-From : https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9
+Resources : 
+1. https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9
 
 
 ### Reactive programming :
@@ -64,7 +66,8 @@ inferred dependency within the associated execution model exists, which facilita
 of the change involved with data flow.
 ```
 
-From : https://en.wikipedia.org/wiki/Reactive_programming
+Resources : 
+1. https://en.wikipedia.org/wiki/Reactive_programming
 
 ### Why ? 
 
@@ -75,4 +78,7 @@ Misused asynchrony bites
 Keep things simple
 ```
 
-From :https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
+Resources : 
+1. https://dzone.com/articles/only-introduction-reactive
+2. https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
+
