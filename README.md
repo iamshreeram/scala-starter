@@ -51,3 +51,17 @@ Immutable State
 
 ```
 From : https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9
+
+
+### Reactive programming :
+
+### What? 
+```
+reactive programming is a declarative programming paradigm concerned with data streams and the 
+propagation of change. This means that it becomes possible to express static (e.g. arrays) or 
+dynamic (e.g. event emitters) data streams with ease via the employed programming language(s), and that an 
+inferred dependency within the associated execution model exists, which facilitates the automatic propagation 
+of the change involved with data flow.
+```
+
+From : https://en.wikipedia.org/wiki/Reactive_programming
