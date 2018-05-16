@@ -38,7 +38,6 @@ CONCURRENCY AND PARALLELISM
 ```
 
 ### How?
-
 With the features of functional programming paradigm, Concurrency and Parallelism comes by default. 
 
 Below are few key features of FP
@@ -51,3 +50,4 @@ Closures
 Immutable State
 
 ```
+From : https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9
