@@ -65,3 +65,14 @@ of the change involved with data flow.
 ```
 
 From : https://en.wikipedia.org/wiki/Reactive_programming
+
+### Why ? 
+
+```
+Reactive Programming is programming with asynchronous data streams.
+Observables can be cold or hot – and it matters.
+Misused asynchrony bites
+Keep things simple
+```
+
+From :https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
