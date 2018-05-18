@@ -15,7 +15,7 @@ This repo is created for Scala newbies which helps in quick jump start.
 
 ### Functional programming :
 
-### What? 
+##### What? 
 ```
 Functional programming (often abbreviated FP) is the process of building 
 software by composing pure functions, avoiding shared state, mutable data, 
@@ -33,12 +33,12 @@ paradigms include object oriented programming and procedural programming.
 Resources : 
 1. https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 
-### Why? 
+##### Why? 
 ```
-CONCURRENCY AND PARALLELISM
+Solve Concurrency and Parallelism
 ```
 
-### How?
+##### How?
 With the features of functional programming paradigm, Concurrency and Parallelism comes by default. 
 
 Below are few key features of FP
@@ -57,9 +57,9 @@ Resources :
 
 ### Reactive programming :
 
-### What? 
+##### What? 
 ```
-reactive programming is a declarative programming paradigm concerned with data streams and the 
+Reactive programming is a declarative programming paradigm concerned with data streams and the 
 propagation of change. This means that it becomes possible to express static (e.g. arrays) or 
 dynamic (e.g. event emitters) data streams with ease via the employed programming language(s), and that an 
 inferred dependency within the associated execution model exists, which facilitates the automatic propagation 
@@ -69,7 +69,7 @@ of the change involved with data flow.
 Resources : 
 1. https://en.wikipedia.org/wiki/Reactive_programming
 
-### Why ? 
+##### Why ? 
 
 ```
 Reactive Programming is programming with asynchronous data streams.
@@ -82,14 +82,14 @@ Resources :
 1. https://dzone.com/articles/only-introduction-reactive
 2. https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
 
-### How? 
+##### How? 
 
 Reactive programming is achieved through Event based architecture.
 
 
 ### Functional Reactive programming :
 
-### What?
+##### What?
 ```
 Functional reactive programming (FRP) is a programming paradigm for reactive programming 
 (asynchronous dataflow programming) using the building blocks of functional programming (e.g. map, reduce, filter). 
@@ -97,7 +97,7 @@ FRP has been used for programming graphical user interfaces (GUIs), robotics, an
 problems by explicitly modeling time.[citation needed]
 ```
 
-### Why?
+##### Why?
 ```
 Functional Reactive Programming (FRP) integrates time flow and compositional events into functional programming. 
 This provides an elegant way to express computation in domains such as interactive animations, robotics, computer vision, user interfaces, and simulation.
@@ -110,13 +110,13 @@ Resources :
 4. https://medium.com/@kuassivi/functional-reactive-programming-with-rxjava-part-1-dc33aa9b5492
 5. https://android.jlelse.eu/how-to-wrap-your-imperative-brain-around-functional-reactive-programming-in-rxjava-91ac89a4eccf
 
-### How?
+##### How?
 
 FRP is a paradigm which implements both functional and reactive approach of programming together.
 
 
 
-## 2. Why Scala?
+## 2. Why Scala for FRP?
 
 Scala, as a functional language, has been given the tools necessary to go reactive, making concurrency and distribution easier and giving a nice and elegant way to asynchronous programming.
 
@@ -126,3 +126,26 @@ Resources :
 2. http://crscardellino.me/2014/08/11/why-did-i-choose-scala.html
 3. https://www.quora.com/Should-I-use-Scala-instead-of-Haskell-to-learn-functional-programming-as-Scala-is-more-widely-used-and-practical
 4. https://www.quora.com/I-want-to-learn-a-functional-language-Which-one-is-the-best-Scala-Clojure-etc-and-why
+
+
+##### Pros
+```
+Higher Productivity & Quality
+Better Developers
+Rapidly Improving Ecosystem
+```
+
+##### Cons
+```
+Learning Curve
+Limited Developer Pool
+Better Developers
+Limited Commercial Support
+Tool Immaturity
+```
+
+Pros & Cons : 
+1. https://www.quora.com/What-are-the-pros-and-cons-of-learning-Scala-as-the-first-functional-language
+2. https://dzone.com/articles/to-scala-or-not-to-scala-that-is-the-question
+3. http://blog.celerity.com/pros-cons-scala
+4. http://jim-mcbeath.blogspot.com/2010/12/scala-pros-and-cons.html
