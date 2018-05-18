@@ -87,7 +87,6 @@ Resources :
 Reactive programming is achieved through Event based architecture.
 
 
-
 ### Functional Reactive programming :
 
 ### What?
@@ -108,6 +107,22 @@ Resources :
 1. http://blog.danlew.net/2017/07/27/an-introduction-to-functional-reactive-programming/
 2. https://wiki.haskell.org/Functional_Reactive_Programming
 3. https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001
-4. 
+4. https://medium.com/@kuassivi/functional-reactive-programming-with-rxjava-part-1-dc33aa9b5492
+5. https://android.jlelse.eu/how-to-wrap-your-imperative-brain-around-functional-reactive-programming-in-rxjava-91ac89a4eccf
 
 ### How?
+
+FRP is a paradigm which implements both functional and reactive approach of programming together.
+
+
+
+## 2. Why Scala?
+
+Scala, as a functional language, has been given the tools necessary to go reactive, making concurrency and distribution easier and giving a nice and elegant way to asynchronous programming.
+
+Resources :
+
+1. https://hackernoon.com/functional-programming-what-language-should-you-be-talking-313dd8bc379b
+2. http://crscardellino.me/2014/08/11/why-did-i-choose-scala.html
+3. https://www.quora.com/Should-I-use-Scala-instead-of-Haskell-to-learn-functional-programming-as-Scala-is-more-widely-used-and-practical
+4. https://www.quora.com/I-want-to-learn-a-functional-language-Which-one-is-the-best-Scala-Clojure-etc-and-why
