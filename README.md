@@ -86,8 +86,9 @@ Keep things simple
 
 ##### How? 
 
+```
 Reactive programming is achieved through Event based architecture.
-
+```
 
 ### Functional Reactive programming :
 
@@ -114,13 +115,17 @@ This provides an elegant way to express computation in domains such as interacti
 
 ##### How?
 
+```
 FRP is a paradigm which implements both functional and reactive approach of programming together.
-
+```
 
 
 ## 2. Why Scala for FRP?
 
+```
 Scala, as a functional language, has been given the tools necessary to go reactive, making concurrency and distribution easier and giving a nice and elegant way to asynchronous programming.
+
+```
 
 ##### Resources :
 
