@@ -23,7 +23,7 @@ Functional programming (often abbreviated FP) is the process of building
 software by composing pure functions, avoiding shared state, mutable data, 
 and side-effects. Functional programming is declarative rather than imperative, 
 and application state flows through pure functions. Contrast with object oriented 
-programming, where application state is usually shared and colocated with methods 
+programming, where application state is usually shared and co-located with methods 
 in objects.
 
 Functional programming is a programming paradigm, meaning 
@@ -43,8 +43,7 @@ Solve Concurrency and Parallelism
 ##### How?
 With the features of functional programming paradigm, Concurrency and Parallelism comes by default. 
 
-Below are few key features of FP
-
+Below are few key features of Functional Programming
 
 First-Class Functions
 High-Order Functions
@@ -73,7 +72,6 @@ of the change involved with data flow.
 
 ##### Why ? 
 
-
 Reactive Programming is programming with asynchronous data streams.
 Observables can be cold or hot – and it matters.
 Misused asynchrony bites
@@ -85,7 +83,6 @@ Keep things simple
 2. https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
 
 ##### How? 
-
 
 Reactive programming is achieved through Event based architecture.
 
@@ -115,16 +112,13 @@ This provides an elegant way to express computation in domains such as interacti
 
 ##### How?
 
-
 FRP is a paradigm which implements both functional and reactive approach of programming together.
 
 
 
 ## 2. Why Scala for FRP?
 
-
 Scala, as a functional language, has been given the tools necessary to go reactive, making concurrency and distribution easier and giving a nice and elegant way to asynchronous programming.
-
 
 
 ##### Resources :
