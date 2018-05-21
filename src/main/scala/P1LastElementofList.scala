@@ -14,6 +14,25 @@ object P1LastElementofList {
     case _ => throw new NoSuchElementException
   }
 
+  /*
+      The value returned by the function is l match {}, that the execution of the pattern matching
+      block on the input variable l.
+
+      The first pattern divides the list in two parts: one head element (h)
+      and a tail formed by nothing. This is the case in which the input list has only one element.
+
+      The second matching takes the tail of the list (the first element is not even stored, it is ignored
+      using the _ wildcard) and calls itself on the remaining values.
+
+      The last matching is selected when the first two fail, that is when the list is empty. In that case an
+      exception shall be thrown to match the behaviour of the last() method. This is not mandatory, but is probably
+      something that the programmer is accustomed to, so provided that we document it, it is a good convention to
+      adhere to.
+
+      In Scala the exception shall be created at the moment, just like a standard object, so the new keyword is
+      needed before the name of the exception itself.
+  */
+
   def main(args: Array[String]): Unit = {
     println(last(List(1, 1, 2, 3, 5, 8)))
   }
