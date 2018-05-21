@@ -12,12 +12,12 @@ object P1LastElementofList {
 
   def last[A](l:List[A]):A = l match {
     case h :: Nil => h
-    case _ :: taiil => last(taiil)
+    case _ :: tail => last(tail)
     case _ => throw new NoSuchElementException
   }
 
   /*  Explanation :
-   
+
       The value returned by the function is l match {}, that the execution of the pattern matching
       block on the input variable l.
 
