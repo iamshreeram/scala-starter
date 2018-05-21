@@ -6,6 +6,8 @@ object P1LastElementofList {
   // Getting the last element from default 'last' method of Scala List
   def imperativeLast[A](l:List[A]):A = l.last
 
+
+
   // Functional approach to get 'last' element of lisT. This is example of TAIL RECURSION.
 
   def last[A](l:List[A]):A = l match {
@@ -14,7 +16,8 @@ object P1LastElementofList {
     case _ => throw new NoSuchElementException
   }
 
-  /*
+  /*  Explanation :
+   
       The value returned by the function is l match {}, that the execution of the pattern matching
       block on the input variable l.
 
