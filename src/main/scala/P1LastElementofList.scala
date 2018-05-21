@@ -4,7 +4,7 @@ object P1LastElementofList {
     */
 
   // Getting the last element from default 'last' method of Scala List
-  def imperativeLast[A](l:List[A]):A = l.last
+  def defaultLast[A](l:List[A]):A = l.last
 
 
 
