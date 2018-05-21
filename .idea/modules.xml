@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Java/executor-service/executorservice.iml" filepath="$PROJECT_DIR$/../../Java/executor-service/executorservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learnscala.iml" filepath="$PROJECT_DIR$/.idea/modules/learnscala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learnscala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/learnscala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root.iml" filepath="$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java/slack-java-webhook-master/slack-java-webhook.iml" filepath="$PROJECT_DIR$/../../Java/slack-java-webhook-master/slack-java-webhook.iml" />
+    </modules>
+  </component>
+</project>

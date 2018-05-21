@@ -73,6 +73,7 @@ dist/*
 target/
 lib_managed/
 src_managed/
+project/target/*
 project/boot/
 project/plugins/project/
 .history
@@ -104,5 +105,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Other files
+SCALAPROBLEMS.md
+Prob.md
 
 # End of https://www.gitignore.io/api/sbt,scala,windows,intellij
