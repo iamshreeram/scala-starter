@@ -10,7 +10,7 @@ object P1LastElementofList {
 
 
 
-  // Functional approach to get 'last' element of lisT. This is example of TAIL RECURSION.
+  // Functional approach to get 'last' element of list. This is example of Tail recursion and Pattern Matching.
   def last[A](l:List[A]):A = l match {
     case h :: Nil => h
     case _ :: tail => last(tail)
@@ -40,14 +40,29 @@ object P1LastElementofList {
   def defaultFirst[A](l:List[A]):A = l.head
 
 
-  // Functional approach to get 'last' element of lisT. This is example of TAIL RECURSION.
+  // Functional approach to get 'first' element of list with Tail recursion and Pattern Matching.
+
+  // Implementation 1
   def first[A](l:List[A]):A = l match {
     case List(firstelement, _*) => firstelement
     case _ => throw new NoSuchElementException
   }
 
+  // Implementation 2
+  def cfirst[A](l:List[A]):A = l match {
+    case firstelement :: _ => firstelement
+    case _ => throw new NoSuchElementException
+  }
+
+   /*
+    Both of above implementations result the same output -
+    List(firstelement, _*) => firstelement
+    firstelement :: _ => firstelement
+   */
+
   def main(args: Array[String]): Unit = {
     println(last(List(1, 1, 2, 3, 5, 8)))
-    println(first(List(1, 1, 2, 3, 5, 8)))
+    println(first(List(2, 1, 2, 3, 5, 8)))
+    println(cfirst(List(3, 1, 2, 3, 5, 8)))
   }
 }
