@@ -39,7 +39,6 @@ object P1LastElementofList {
   // Getting the first element with default 'head' method of Scala List
   def defaultFirst[A](l:List[A]):A = l.head
 
-
   // Functional approach to get 'first' element of list with Tail recursion and Pattern Matching.
 
   // Implementation 1
