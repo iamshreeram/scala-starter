@@ -7,7 +7,7 @@ object P2LastButOneElementofList {
     last element of the first (n - 1) elements. Scala provides a method called "init()" which
     returns all elements except the last.
    */
-
+  // init() --> Default method
   def defaultPenultimate[A](l:List[A]):A = {
     if (l.isEmpty) throw new NoSuchElementException
     l.init.last //"init()" which returns all elements except the last
