@@ -57,6 +57,13 @@ object P1LastElementofList {
     firstelement :: _ => firstelement
    */
 
+    /*
+    Summary :
+    1. Exceptions
+    2. Pattern Matching
+    3. Pattern Guard
+   */
+
   def main(args: Array[String]): Unit = {
     println(last(List(1, 1, 2, 3, 5, 8)))
     println(first(List(2, 1, 2, 3, 5, 8)))

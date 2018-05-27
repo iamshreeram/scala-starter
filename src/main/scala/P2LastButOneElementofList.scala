@@ -49,8 +49,15 @@ object P2LastButOneElementofList {
   }
 
 
+  /*
+  Summary :
+  1. Exceptions
+  2. Pattern Matching
+  3. Pattern Guard
+   */
+
   def main(args: Array[String]): Unit = {
     //println(defaultPenultimate(List(1,2,3,4,5)))
-    println(penultimate(List(1, 1, 2, 3, 5, 8)))
+    println(penultimate(List(1, 1, 2, 3, "five", 8)))
   }
 }
