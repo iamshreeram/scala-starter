@@ -24,7 +24,7 @@ object P2LastButOneElementofList {
   //Recursive approach
 
   /*
-  Explanation : 
+  Explanation :
   The exit case is when the list is composed by a head element and a tail made by a list of one single element.
   The pattern matching syntax can express this situation with the h :: List(t) syntax. The standard case is when
   the tail is still a generic list and the last case covers all edge cases.
@@ -36,7 +36,11 @@ object P2LastButOneElementofList {
     case _ => throw new NoSuchElementException
   }
 
-  //Example of Pattern Guard --> Pattern guards are simply conditional expressions that rule the application of a pattern.
+  /*
+  Pattern guards are simply conditional expressions that rule the application of a pattern.
+  They are boolean expressions which are used to make cases more specific.
+  Just add if <boolean expression> after the pattern.
+  */
 
   def lastNthPatternGuard[A](n: Int, l:List[A]): A = l match {
     case tail if (tail.length == n) => tail.head
