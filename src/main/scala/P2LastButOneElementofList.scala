@@ -1,7 +1,7 @@
 import P1LastElementofList.last
 
 object P2LastButOneElementofList {
-  
+
   /* Procedural :
   A smart way to solve the problem is to consider that the penultimate element of a list of n elements is the
   last element of the first (n - 1) elements. Scala provides a method called "init()" which
@@ -21,11 +21,21 @@ object P2LastButOneElementofList {
     l.takeRight(n).head
   }
 
+  //Recursive approach
+
   def penultimate[A](l:List[A]):A = l match {
     case h :: List(t) => h
     case _ :: tail => penultimate(tail)
     case _ => throw new NoSuchElementException
   }
+  
+  //Example of Pattern Guard
+  def lastNthPatternGuard[A](n: Int, l:List[A]): A = l match {
+    case tail if (tail.length == n) => tail.head
+    case _ :: tail => lastNthPatternGuard(n, tail)
+    case _ => throw new NoSuchElementException
+  }
+
 
   def main(args: Array[String]): Unit = {
     //println(defaultPenultimate(List(1,2,3,4,5)))
