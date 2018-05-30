@@ -8,8 +8,6 @@ object P1LastElementofList {
   // Getting the last element with default 'last' method of Scala List
   def defaultLast[A](l:List[A]):A = l.last
 
-
-
   // Functional approach to get 'last' element of list. This is example of Tail recursion and Pattern Matching.
   def last[A](l:List[A]):A = l match {
     case h :: Nil => h
