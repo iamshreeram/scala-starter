@@ -1,4 +1,7 @@
+
 # scala-starter
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repo is created for newbies which helps in jump starting with Scala. This follows Cross-dimensional approach of learning functional reactive Programming with Scala.
 
 This contains gist of every concepts and also the resources for reference.
