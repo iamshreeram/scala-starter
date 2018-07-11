@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/../../Java/executor-service/pom.xml" />
         <option value="$PROJECT_DIR$/../../Java/slack-java-webhook-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Java/jmeter-plugin-slack-sender/pom.xml" />
       </list>
     </option>
   </component>

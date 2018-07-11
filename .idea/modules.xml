@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root.iml" filepath="$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root.iml" />
       <module fileurl="file://$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/../play-scala-starter-example/.idea/modules/root-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Java/slack-java-webhook-master/slack-java-webhook.iml" filepath="$PROJECT_DIR$/../../Java/slack-java-webhook-master/slack-java-webhook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java/jmeter-plugin-slack-sender/slackstatus.iml" filepath="$PROJECT_DIR$/../../Java/jmeter-plugin-slack-sender/slackstatus.iml" />
     </modules>
   </component>
 </project>

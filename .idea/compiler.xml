@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="executorservice" />
         <module name="slack-java-webhook" />
+        <module name="slackstatus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="executorservice" target="1.8" />
       <module name="slack-java-webhook" target="1.6" />
+      <module name="slackstatus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
